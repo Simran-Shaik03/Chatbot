@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bauncing Ball</title>
+    <style>
+        body{
+            background-color: #97ca97;
+            padding: 00px;
+            margin: 0px;
+            
+        }
+        
+        .ball{
+            background-image: url("ball-removebg-preview.png");
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-size: cover;
+            position: relative;
+            top: 50px;
+            left: 700px;
+            animation-name: bounce;
+            animation-duration: 3s;
+            animation-timing-function: linear(0 0%, 0 2.27%, 0.02 4.53%, 0.04 6.8%, 0.06 9.07%, 0.1 11.33%, 0.14 13.6%, 0.25 18.15%, 0.39 22.7%, 0.56 27.25%, 0.77 31.8%, 1 36.35%, 0.89 40.9%, 0.85 43.18%, 0.81 45.45%, 0.79 47.72%, 0.77 50%, 0.75 52.27%, 0.75 54.55%, 0.75 56.82%, 0.77 59.1%, 0.79 61.38%, 0.81 63.65%, 0.85 65.93%, 0.89 68.2%, 1 72.7%, 0.97 74.98%, 0.95 77.25%, 0.94 79.53%, 0.94 81.8%, 0.94 84.08%, 0.95 86.35%, 0.97 88.63%, 1 90.9%, 0.99 93.18%, 0.98 95.45%, 0.99 97.73%, 1 100%);
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+
+        }
+        @keyframes bounce {
+            from{
+                top: 50px;
+                left: 700px;
+            }
+            to{
+                top: 500px;
+                left: 700px;
+            }
+        }
+        @media screen and (max-width: 400px){
+            body{
+                background-color:rgb(224, 180, 148);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+            <div class="ball"></div>
+
+
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/66b1062d1601a2195ba10bea/1i4ho096t';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+</body>
+</html>
